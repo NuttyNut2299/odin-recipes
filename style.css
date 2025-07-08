@@ -76,12 +76,16 @@ li {
 
 .body-background {
     background-color: beige;
-    padding: 4px 12px;
+    padding: 4px 20px;
     border: outset 4px black;
     margin: 4px auto 12px auto;
 }
 
 .bullet-listing{
     list-style-type: disc !important;
-    padding: 0 0 0 16px;
+    padding: 0 20px 0 40px;
+}
+
+.number-listing{
+    padding: 0 16px 0 40px;
 }
