@@ -9,7 +9,39 @@ body {
 ul {
     padding: 0;
     list-style-type: none;
-    overflow: hidden;
+}
+
+img {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 12px 0 0 0;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 24px;
+    margin: 24px auto 12px auto;
+}
+
+h2, h4, li {
+    font-family: 'Helvetica', sans-serif;
+    padding: 8px 0 8px 0;
+}
+
+h2, h4 {
+    margin: 4px auto 4px auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+li {
+    font-size: 18px;
 }
 
 .background {
@@ -21,6 +53,7 @@ ul {
 
 .title {
     background-color: bisque;
+    margin: 12px auto 12px auto;
     padding: 12px; 
     text-align: center;
     font-family: "Gill Sans", sans-serif;
@@ -29,6 +62,7 @@ ul {
 
 .top-bar {
     background-color: aliceblue;
+    margin: 12px auto 12px auto;
     padding: 4px;
 }
 
@@ -38,4 +72,16 @@ ul {
     text-align: center;
     font-size: 20px;
     font-family: "Georgia", serif;
+}
+
+.body-background {
+    background-color: beige;
+    padding: 4px 12px;
+    border: outset 4px black;
+    margin: 4px auto 12px auto;
+}
+
+.bullet-listing{
+    list-style-type: disc !important;
+    padding: 0 0 0 16px;
 }
