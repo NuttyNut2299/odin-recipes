@@ -17,14 +17,16 @@ img {
     padding: 12px 0 0 0;
 }
 
-p {
+h2, h4, li, p {
     font-family: 'Helvetica', sans-serif;
+}
+
+p {
     font-size: 24px;
     margin: 24px auto 12px auto;
 }
 
 h2, h4, li {
-    font-family: 'Helvetica', sans-serif;
     padding: 8px 0 8px 0;
 }
 
@@ -33,7 +35,7 @@ h2, h4 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 h4 {
